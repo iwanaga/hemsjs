@@ -1,0 +1,57 @@
+body {
+    font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+    margin: 0;
+    background-color: #373737;
+    color: #fff;
+}
+
+a {
+    color: #00B7FF;
+}
+
+.wrapper {
+    padding: 15px 25px 25px;
+}
+
+.border {
+    border-bottom: 1px solid #58595a;
+}
+
+.label {
+    font-size: 30px;
+    /*font-family: "Helvetica Neue";*/
+    font-family: "Hiragino Kaku Gothic Pro";
+    font-weight: 100;
+    margin-bottom: 15px;
+}
+
+.content {
+    background: none repeat scroll 0 0 rgba(0, 0, 0, 0.16);
+    border: 0 none;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3) inset, 0 1px rgba(255, 255, 255, 0.06);
+    -webkit-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3) inset, 0 1px rgba(255, 255, 255, 0.06);
+    -moz-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3) inset, 0 1px rgba(255, 255, 255, 0.06);
+    padding: 0 20px 10px;
+}
+
+.number {
+    font-family: "Helvetica Neue";
+    font-weight: 100;
+}
+
+.gray {
+    color: #e0e1e1;
+}
+.unit {
+    font-family: "Helvetica Neue";
+    font-weight: 200;
+    font-size: 17px;
+    color: #e0e1e1;
+}
+
+.description {
+    font-family: "Helvetica Neue";
+    font-weight: 400;
+    font-size: 11px;
+    color: #f0f1f1;
+}

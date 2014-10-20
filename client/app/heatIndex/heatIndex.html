@@ -1,0 +1,12 @@
+<div class="wrapper border">
+    <div class="label"><i class="fa fa-home"></i> 体感温度</div>
+    <div class="content">
+        <div>
+            <span id="heatIndex" class="number">{{ thermoHygro.heatIndex | number:1 }}</span>
+            <span id="heatIndexUnit" class="unit gray">℃</span>
+        </div>
+        <span id="temperature" class="number gray">{{ thermoHygro.temperature | number:0 }}</span><span class="unit">℃</span>
+        <span id="humidity" class="number gray">{{ thermoHygro.humidity | number:0 }}</span><span class="unit">%</span>
+        <div id="measuredAt" class="gray">測定: {{ thermoHygro.createdAt | date:'HH:mm:ss'}}</div>
+    </div>
+</div>

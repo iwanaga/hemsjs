@@ -1,0 +1,13 @@
+#btn-ac-control {
+    font-size: 30px;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    height: 100px;
+    width: 200px;
+    border: 1px solid #134f7f;
+    color: #fff;
+    background: linear-gradient(to bottom, #00a2d3, #0d7796) repeat scroll 0 0 #00a2d3;
+    box-shadow: 0 0 0 1px #00a2d3 inset, 0 0 0 5px rgba(0, 0, 0, 0.16);
+    border-radius: 15px;
+}

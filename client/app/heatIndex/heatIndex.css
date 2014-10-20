@@ -1,0 +1,22 @@
+#heatIndex {
+    font-size: 80px;
+}
+
+#heatIndexUnit {
+    font-size: 45px;
+}
+
+#temperature {
+    font-size: 30px;
+}
+
+#humidity {
+    font-size: 30px;
+    margin-left: 5px;
+}
+
+#measuredAt {
+    font-size: 16px;
+    font-family: "Helvetica Neue";
+    font-weight: 300;
+}

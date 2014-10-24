@@ -43,7 +43,7 @@ var all = {
 
   // Arduino configurations
   arduino: {
-    interval: 1000
+    interval: 60000
   }
 
 };
